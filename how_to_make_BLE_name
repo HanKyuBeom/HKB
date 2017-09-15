@@ -1,0 +1,7 @@
+#include <CurieBLE.h>
+BLEPeripheral blePeripheral;
+
+void setup() {
+  blePeripheral.setLocalName("WATER");
+  blePeripheral.begin();
+  }
